@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #b9c2bb;
+  margin-bottom: 20px;
+}
+
+canvas {
+  border: 2px solid #fff;
+  max-width: 100%;
+  height: auto;
+}
